@@ -43,6 +43,8 @@ clear: both;
 	width: calc(100%/3);	
 	float: left;
 	padding: 10px;	
+	margin-bottom: 20px;
+	
 }
 
 .card{
@@ -60,4 +62,5 @@ clear: both;
 
 .email{
 	margin-top: 5px;
+	color:lightblue ;
 }
