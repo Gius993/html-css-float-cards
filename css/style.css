@@ -9,7 +9,9 @@ h1{font-family: 'Fredoka One', cursive; ;
 	color: #e4326f;
 	
 }
-
+h3{
+	font-family: 'Fredoka One', cursive; ;
+}
 .container{
 	width: 70%;
 	margin: auto;
@@ -25,6 +27,26 @@ h1{font-family: 'Fredoka One', cursive; ;
 
 .txt{
 margin-top: 40px;
+}
+
+.clearfix::after{
+content: "";
+display: table;
+clear: both;
+}
+
+
+
+.card{
+	background-color: black;
+	width: calc(100/3);	
+	float: left;
+	color: white;
+	
+}
+.txt-card{
+	float: right;
+	width: 70%;
 }
 
 
